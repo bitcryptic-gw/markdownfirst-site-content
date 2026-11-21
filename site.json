@@ -1,0 +1,69 @@
+{
+  "name": "markdownfirst",
+  "shortName": "markdownfirst",
+  "titleTemplate": "{title} · markdownfirst.com",
+  "origin": "https://markdownfirst.com",
+  "theme": "markdownfirst",
+  "description": "MDF is a small open standard: your site hands AI agents a clean markdown page instead of the whole heavy web page, and, if you want, a price tag.",
+  "content": {
+    "posts": false,
+    "pages": true
+  },
+  "nav": [
+    {
+      "label": "How it works",
+      "path": "/how-it-works/",
+      "order": 10
+    },
+    {
+      "label": "For site owners",
+      "path": "/for-site-owners/",
+      "order": 20
+    },
+    {
+      "label": "For agents",
+      "path": "/for-agents/",
+      "order": 30
+    },
+    {
+      "label": "Spec",
+      "path": "/spec/",
+      "order": 40
+    },
+    {
+      "label": "Try the demo",
+      "path": "https://mdf-demo.bitcryptic.com",
+      "order": 50,
+      "style": "button"
+    }
+  ],
+  "umami": null,
+  "footer": {
+    "left": "Open source · MDF 0.3.1 · This page is served as markdown to agents too.",
+    "right": "BitCryptic × Slepner"
+  },
+  "mdf": {
+    "name": "markdownfirst.com",
+    "contact": "https://bitcryptic.com"
+  },
+  "llms": {
+    "description": "MDF is a small open standard: your site hands AI agents a clean markdown page instead of the whole heavy web page, and, if you want, a price tag.",
+    "intro": [
+      "Every page on this site is also available as markdown at the same URL:",
+      "send `Accept: text/markdown` to it and the response is `text/markdown`,",
+      "not HTML. Browsers keep getting HTML."
+    ],
+    "site": [
+      "- [markdownfirst.com]({origin}/) — the home page.",
+      "- [MDF capability document]({origin}/mdf.json) — every page on this site is free.",
+      "- Sitemap: {origin}/sitemap.xml"
+    ],
+    "topics": "markdown for agents, MDF, MDF 0.3.1, x402, Lightning, USDC on Base,\nWordPress plugin, content negotiation, agent-readable web."
+  },
+  "notFound": {
+    "heading": "Not found",
+    "body": "There is no page at this address.",
+    "linkLabel": "the home page",
+    "linkNote": "for what this site is."
+  }
+}
