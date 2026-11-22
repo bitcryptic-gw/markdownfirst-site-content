@@ -209,8 +209,3 @@ cheap and clean for agents to read, and show you which agents read them.
 
 Nothing. The spec, the WordPress plugin, the reference server and the validator are all
 open source.
-
----
-
-Open source. MDF 0.3.1. This page is served as markdown to agents too.
-BitCryptic × Slepner.

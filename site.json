@@ -37,10 +37,30 @@
       "style": "button"
     }
   ],
-  "umami": null,
+  "umami": {
+    "websiteId": "daac0512-c1b8-455c-b33e-216f814a4f3e",
+    "scriptUrl": "https://webstats.bitcryptic.com/script.js"
+  },
   "footer": {
     "left": "Open source · MDF 0.3.1 · This page is served as markdown to agents too.",
-    "right": "BitCryptic × Slepner"
+    "right": [
+      "Content ",
+      {
+        "text": "CC BY 4.0",
+        "href": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      " · ",
+      {
+        "text": "BitCryptic™",
+        "href": "https://bitcryptic.com"
+      },
+      " and ",
+      {
+        "text": "Slepner",
+        "href": "https://slepner.com.au"
+      }
+    ],
+    "markdown": true
   },
   "mdf": {
     "name": "markdownfirst.com",
