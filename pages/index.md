@@ -77,9 +77,9 @@ paths:
       href: "https://github.com/bitcryptic-gw/mdf-analytics-wp"  # interim: switch to /for-site-owners/ when published
       tone: blue
     - title: "I build agents"
-      body: "Send one header, read `/mdf.json`, and pay with any x402 client. Or plug in our MCP tool."
-      linkLabel: "Point an agent at the demo"
-      href: "https://mdf-demo.bitcryptic.com"
+      body: "Send one header, read `/mdf.json`, and pay with any x402 client. Or plug in our MCP tool: it fetches markdown and shows what a page costs."
+      linkLabel: "Get the MCP tool"
+      href: "https://github.com/bitcryptic-gw/mdf-mcp-gateway"
       tone: plain
     - title: "I like reading specs"
       body: "MDF 0.3.1 is open, on GitHub. A validator checks any site against it in seconds."
@@ -110,7 +110,7 @@ faq:
     - q: "Will it get me cited more by AI search?"
       a: "We don't claim that, because nobody has shown it yet. What MDF does is make your pages cheap and clean for agents to read, and show you which agents read them."
     - q: "What does it cost to use?"
-      a: "Nothing. The spec, the WordPress plugin, the reference server and the validator are all open source."
+      a: "Nothing. The spec, the WordPress plugin, the reference server, the validator and the MCP tool are all open source."
 ---
 
 markdownfirst.com is the home of **MDF**, a small open standard for the agent-readable
@@ -123,7 +123,7 @@ price tag.
 MDF is a small open standard. Your site hands AI agents a clean markdown page instead of
 the whole heavy web page, and, if you want, a price tag.
 
-- [See the difference](#race)
+- [See the difference](https://markdownfirst.com/#race)
 <!-- interim: switch to /for-site-owners/ when published -->
 - [Get the WordPress plugin](https://github.com/bitcryptic-gw/mdf-analytics-wp)
 
@@ -174,7 +174,9 @@ tokens** as markdown. That measurement is Cloudflare's, from Markdown for Agents
   <!-- interim: switch to /for-site-owners/ when published -->
   [Get the plugin](https://github.com/bitcryptic-gw/mdf-analytics-wp).
 - **I build agents.** Send one header, read `/mdf.json`, and pay with any x402 client. Or
-  plug in our MCP tool. [Point an agent at the demo](https://mdf-demo.bitcryptic.com).
+  plug in our MCP tool: it fetches markdown and shows what a page costs.
+  [Get the MCP tool](https://github.com/bitcryptic-gw/mdf-mcp-gateway), or
+  [point an agent at the demo](https://mdf-demo.bitcryptic.com).
 - **I like reading specs.** MDF 0.3.1 is open, on GitHub. A validator checks any site
   against it in seconds. <!-- interim: switch to /spec/ when published -->
   [Read the spec](https://github.com/bitcryptic-gw/mdf).
@@ -207,5 +209,5 @@ cheap and clean for agents to read, and show you which agents read them.
 
 ### What does it cost to use?
 
-Nothing. The spec, the WordPress plugin, the reference server and the validator are all
-open source.
+Nothing. The spec, the WordPress plugin, the reference server, the validator and the MCP
+tool are all open source.
